@@ -10,6 +10,7 @@ class ItemsController {
                 id: item.id,
                 title: item.title,
                 image_url: `http://localhost:3333/uploads/${item.image}`,
+                ip_image_url: `http://192.168.0.117:3333/uploads/${item.image}`,
             };
         })
     
